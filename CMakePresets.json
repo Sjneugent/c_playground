@@ -1,0 +1,136 @@
+{
+  "version": 4,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "Debug",
+      "displayName": "VS2022 Debug x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "description": "Debug build using VS2022 x64",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "Release",
+      "displayName": "VS2022 Release x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "description": "Release build using VS2022 x64",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "Optimized",
+      "displayName": "VS2022 Optimized x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "description": "Optimized build using VS2022 x64",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    },
+    {
+      "name": "Win32-Debug",
+      "displayName": "VS2022 Debug x86",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x86",
+      "description": "Debug build using VS2022 x86",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "Win32-Release",
+      "displayName": "VS2022 Release x86",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x86",
+      "description": "Release build using VS2022 x86",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "Win32-Optimized",
+      "displayName": "VS2022 Optimized x86",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x86",
+      "description": "Optimized build using VS2022 x86",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    },
+    {
+      "name": "Linux-Debug-x64",
+      "displayName": "Linux Debug x64",
+      "generator": "Ninja",
+      "description": "Debug build for Linux x64",
+      "architecture": "x64",
+      "hidden": false,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "Linux-Release-x64",
+      "displayName": "Linux Release x64",
+      "generator": "Ninja",
+      "description": "Release build for Linux x64",
+      "architecture": "x64",
+      "hidden": false,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "Linux-Optimized-x64",
+      "displayName": "Linux Optimized x64",
+      "generator": "Ninja",
+      "description": "Optimized build for Linux x64",
+      "architecture": "x64",
+      "hidden": false,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    },
+    {
+      "name": "Linux-Debug-x86",
+      "displayName": "Linux Debug x86",
+      "generator": "Ninja",
+      "description": "Debug build for Linux x86",
+      "architecture": "x86",
+      "hidden": false,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "Linux-Release-x86",
+      "displayName": "Linux Release x86",
+      "generator": "Ninja",
+      "description": "Release build for Linux x86",
+      "architecture": "x86",
+      "hidden": false,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "Linux-Optimized-x86",
+      "displayName": "Linux Optimized x86",
+      "generator": "Ninja",
+      "description": "Optimized build for Linux x86",
+      "architecture": "x86",
+      "hidden": false,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    }
+  ]
+}
